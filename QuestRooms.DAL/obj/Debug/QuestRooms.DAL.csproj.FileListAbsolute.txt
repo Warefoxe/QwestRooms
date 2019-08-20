@@ -1,0 +1,14 @@
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\bin\Debug\QuestRooms.DAL.dll.config
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\bin\Debug\QuestRooms.DAL.dll
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\bin\Debug\QuestRooms.DAL.pdb
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.csprojAssemblyReference.cache
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.csproj.CopyComplete
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.dll
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.pdb
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.Migrations.AddCompanyMigration.resources
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.csproj.GenerateResource.cache

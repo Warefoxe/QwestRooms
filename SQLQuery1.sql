@@ -1,0 +1,21 @@
+﻿
+insert into Addresses (City_ID, Country_ID, Street_ID) values (1, 1, 1);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (2, 2, 2);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (3, 3, 3);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (4, 4, 4);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (5, 5, 5);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (6, 6, 6);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (7, 7, 7);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (8, 8, 8);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (9, 9, 9);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (10, 10, 10);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (11, 11, 11);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (12, 12, 12);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (13, 13, 13);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (14, 14, 14);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (15, 15, 15);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (16, 16, 16);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (17, 17, 17);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (18, 18, 18);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (19, 19, 19);
+insert into Addresses (City_ID, Country_ID, Street_ID) values (20, 20, 20);

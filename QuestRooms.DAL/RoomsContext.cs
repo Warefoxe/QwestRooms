@@ -1,5 +1,6 @@
 namespace QuestRooms.DAL
 {
+    using QuestRooms.DAL.Configuration;
     using System;
     using System.Data.Entity;
     using System.Linq;
@@ -10,8 +11,15 @@ namespace QuestRooms.DAL
         public RoomsContext()
             : base("name=RoomsContext")
         {
+            this.Database.Log = (x =>
+            {
+                Console.WriteLine(x);
+            });
+
+            Database.SetInitializer(new DbInitilizer());
         }
 
+        
        
     }
 

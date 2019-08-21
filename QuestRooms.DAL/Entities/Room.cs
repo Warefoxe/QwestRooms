@@ -11,17 +11,18 @@ namespace QuestRooms.DAL.Entities
         public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public TimeSpan TimeOfCompliting { get; set; }
-        public int MinCountOfPlayers { get; set; }
-        public int MaxCountOfPlayers { get; set; }
-        public int MinAgeOfPlayers { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Email { get; set; }
-        public double Rating { get; set; }
-        public int LvlOfFear { get; set; }
-        public int LvlOfDifficulty { get; set; }
-        public string Logo { get; set; }
+        public TimeSpan PassingTime { get; set; }
+        public int MinPlayer { get; set; }
+        public int MaxPlayer { get; set; }
+        public int MinAge { get; set; }
         public virtual Address Address { get; set; }
-        public virtual Image Images { get; set; }
+        public string PhoneNumber { get; set; }
+        public virtual Company Company { get; set; }
+        public string Email { get; set; }
+        public int Rating { get; set; }
+        public int LevelFear { get; set; }
+        public int LevelDifficulty { get; set; }
+        public string Logo { get; set; }
+        public virtual ICollection<Image> Images { get; set; }
     }
 }

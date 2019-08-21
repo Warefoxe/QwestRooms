@@ -9,7 +9,7 @@ namespace QuestRooms.DAL.Entities
     public class Company
     {
         public int ID { get; set; }
-        public string CompanyName { get; set; }
+        public string Name { get; set; }
         public ICollection<Room> Rooms { get; set; }
     }
 }

@@ -8,9 +8,8 @@ namespace QuestRooms.DAL.Entities
 {
     public class Image
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<Room> Rooms { get; set; }
-        public string Path { get; set; }
+        public virtual Room Room { get; set; }
     }
 }

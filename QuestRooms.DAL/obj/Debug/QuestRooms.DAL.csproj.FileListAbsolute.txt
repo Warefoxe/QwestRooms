@@ -10,5 +10,6 @@ C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DA
 C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.csproj.CopyComplete
 C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.dll
 C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.pdb
-C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.Migrations.AddCompanyMigration.resources
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.Migrations.AddCompanyMigration2.resources
 C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.csproj.GenerateResource.cache
+C:\Users\Davidyuk\Source\Repos\QwestRooms\QuestRooms.DAL\obj\Debug\QuestRooms.DAL.Migrations.AddCompanyMigration3.resources

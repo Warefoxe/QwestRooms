@@ -1,0 +1,10 @@
+﻿insert into Streets (Name) values ('South');
+insert into Streets (Name) values ('Hayes');
+insert into Streets (Name) values ('Del Sol');
+insert into Streets (Name) values ('Valley Edge');
+insert into Streets (Name) values ('Pepper Wood');
+insert into Streets (Name) values ('Forest');
+insert into Streets (Name) values ('Cambridge');
+insert into Streets (Name) values ('Spohn');
+insert into Streets (Name) values ('Hauk');
+insert into Streets (Name) values ('Hoffman');

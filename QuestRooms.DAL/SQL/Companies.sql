@@ -1,0 +1,10 @@
+﻿insert into Companies (Name) values ('Skivee');
+insert into Companies (Name) values ('Minyx');
+insert into Companies (Name) values ('Talane');
+insert into Companies (Name) values ('Kwideo');
+insert into Companies (Name) values ('Meezzy');
+insert into Companies (Name) values ('Tagtune');
+insert into Companies (Name) values ('Mydeo');
+insert into Companies (Name) values ('Meetz');
+insert into Companies (Name) values ('Avaveo');
+insert into Companies (Name) values ('Divavu');

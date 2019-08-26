@@ -9,9 +9,9 @@ namespace QuestRooms.DAL.Entities
     public class Address
     {
         public int ID { get; set; }
-        public Country CountryID { get; set; }
-        public City CityID { get; set; }
-        public Street StreetID { get; set; }
+        public Country Country { get; set; }
+        public City City { get; set; }
+        public Street Street { get; set; }
         public string HouseNumber { get; set; }
         public ICollection<Room> Rooms { get; set; }
     }

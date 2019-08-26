@@ -1,0 +1,10 @@
+﻿insert into Cities (Name) values ('Chefchaouene');
+insert into Cities (Name) values ('Ukrainka');
+insert into Cities (Name) values ('Panimbang');
+insert into Cities (Name) values ('Caloue');
+insert into Cities (Name) values ('Durrës');
+insert into Cities (Name) values ('Bukama');
+insert into Cities (Name) values ('Stockholm');
+insert into Cities (Name) values ('Bayang');
+insert into Cities (Name) values ('Kariya');
+insert into Cities (Name) values ('Tegalrejo');

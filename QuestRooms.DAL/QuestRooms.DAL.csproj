@@ -58,9 +58,13 @@
     <Compile Include="Entities\Image.cs" />
     <Compile Include="Entities\Room.cs" />
     <Compile Include="Entities\Street.cs" />
-    <Compile Include="Migrations\201908201411516_AddCompanyMigration.cs" />
-    <Compile Include="Migrations\201908201411516_AddCompanyMigration.Designer.cs">
-      <DependentUpon>201908201411516_AddCompanyMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201908261305402_AddCompanyMigration2.cs" />
+    <Compile Include="Migrations\201908261305402_AddCompanyMigration2.Designer.cs">
+      <DependentUpon>201908261305402_AddCompanyMigration2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908261309545_AddCompanyMigration3.cs" />
+    <Compile Include="Migrations\201908261309545_AddCompanyMigration3.Designer.cs">
+      <DependentUpon>201908261309545_AddCompanyMigration3.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,9 +77,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201908201411516_AddCompanyMigration.resx">
-      <DependentUpon>201908201411516_AddCompanyMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201908261305402_AddCompanyMigration2.resx">
+      <DependentUpon>201908261305402_AddCompanyMigration2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908261309545_AddCompanyMigration3.resx">
+      <DependentUpon>201908261309545_AddCompanyMigration3.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SQL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,13 +7,13 @@ namespace QuestRooms.DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class AddCompanyMigration : IMigrationMetadata
+    public sealed partial class AddCompanyMigration2 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddCompanyMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddCompanyMigration2));
         
         string IMigrationMetadata.Id
         {
-            get { return "201908201411516_AddCompanyMigration"; }
+            get { return "201908261305402_AddCompanyMigration2"; }
         }
         
         string IMigrationMetadata.Source

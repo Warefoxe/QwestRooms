@@ -14,6 +14,7 @@ namespace QuestRooms.BLL.Mapping
         public MapperProfile()
         {
             CreateMap<City, CityDto>();
+
         }
 
     }

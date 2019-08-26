@@ -31,10 +31,12 @@ namespace QuestRooms.UA.App_Start
         private static void RegisterTypes(ContainerBuilder builder)
         {
             var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile<MapperProfile>());
-            var mapper = new Mapper(mapperConfig);
+            Mapper mapper = new Mapper(mapperConfig);
             builder.RegisterInstance(mapper).As<IMapper>();
+            builder.RegisterType<RoomsContext>().As<DbContext>();
             builder.RegisterGeneric(typeof(GenericRepository<>)).As(typeof(IGenericRepository<>));
             builder.RegisterType<CitiesService>().As<ICitiesService>();
+            
             //builder.RegisterType<RoomsContext>().As<DbContext>();
         }
     }

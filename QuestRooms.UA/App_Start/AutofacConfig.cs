@@ -28,15 +28,30 @@ namespace QuestRooms.UA.App_Start
 
         }
 
-        private static void RegisterTypes(ContainerBuilder builder)
+        private static void RegisterTypes(ContainerBuilder _builder)
         {
-            var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile<MapperProfile>());
+            var mapperConfig = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<MapperProfile>();
+            });
             Mapper mapper = new Mapper(mapperConfig);
-            builder.RegisterInstance(mapper).As<IMapper>();
-            builder.RegisterType<RoomsContext>().As<DbContext>();
-            builder.RegisterGeneric(typeof(GenericRepository<>)).As(typeof(IGenericRepository<>));
-            builder.RegisterType<CitiesService>().As<ICitiesService>();
-            
+            _builder.RegisterInstance(mapper).As<IMapper>();
+            _builder.RegisterType<RoomsContext>().As<DbContext>();
+            _builder.RegisterGeneric(typeof(GenericRepository<>)).As(typeof(IGenericRepository<>));
+            _builder.RegisterType<CitiesService>().As<ICitiesService>();
+            _builder.RegisterType<RoomsService>().As<IRoomsService>();
+
+            //_builder.RegisterType<QuestRoomServis>().As<IQuestRoomServise>();
+
+
+            //var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile<MapperProfile>());
+            //var mapper = new Mapper(mapperConfig);
+
+            //builder.RegisterInstance(mapper).As<IMapper>();
+            //builder.RegisterType<RoomsContext>().As<DbContext>();
+            //builder.RegisterGeneric(typeof(GenericRepository<>)).As(typeof(IGenericRepository<>));
+            //builder.RegisterType<CitiesService>().As<ICitiesService>();
+
             //builder.RegisterType<RoomsContext>().As<DbContext>();
         }
     }

@@ -35,7 +35,7 @@ namespace QuestRooms.UA.Controllers
         public ActionResult RoomsByCity(int id)
         {
             var rooms = roomsService.GetRoomsbyCity(id);
-            return PartialView("RoomsbyCity", rooms);
+            return PartialView("RoomsByCity", rooms);
         }
 
 

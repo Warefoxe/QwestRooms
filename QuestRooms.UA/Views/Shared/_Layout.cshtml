@@ -9,9 +9,20 @@
 
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">QuestRooms</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#na">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </header>
     <div>
         @RenderBody()
     </div>
+    <footer>
+        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+    </footer>
     <script src="~/Scripts/jquery-3.0.0.min.js"></script>
     <script src="~/Scripts/bootstrap.bundle.min.js"></script>
 </body>

@@ -24,7 +24,7 @@ namespace QuestRooms.BLL.Servises.Implementation
 
         public ICollection<CityDto> GetCities()
         {
-            var cities = repository.GetAll();
+            var cities = repository.GetAll().ToList();
             return mapper.Map<IEnumerable<City>, ICollection<CityDto>>(cities);
         }
     }
